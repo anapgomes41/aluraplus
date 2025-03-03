@@ -1,0 +1,226 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito:rgb(57, 76, 100);
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("imagens/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__fotocombo {
+    margin: 1em 0 2em 0;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 7px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__botao__dois {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.container__aviso {
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.container__secundario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.secundario__imgplataformas{
+    width: 40%;
+    margin: 0 5em;
+}
+
+.container__descricao {
+    width: 50%;
+    text-align: left;
+    margin: center;
+}
+
+.secundario__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.secundario__texto {
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+
+.container__terceiro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.terceiro__container {
+    margin: 5em 3em;
+}
+
+.terceiro__imagem {
+    width: 40%;
+    margin: 6em 4em 5em 0;
+}
+
+.terceiro__texto {
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+
+.terceiro__botao {
+    background-color: var(--botao-azul);
+    border-radius: 7px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    font-size: 16px;
+    text-decoration: none;   
+    width: 150px;
+    margin: 1em
+}
+
+.container__quatro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.quatro__imgnotebook {
+    width: 40%;
+    margin: 5em 5em;
+}
+
+.quatro__descricao {
+    width: 50%;
+    text-align: left;
+    margin: center;
+}
+
+.quatro__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.quatro__texto {
+    font-size: 16px;
+    color: var(--cinza-secundario);
+}
+
+.quinto__container {
+    text-align: center;
+    margin: 4em;
+}
+
+.quinto__titulo {
+    size: 48px;
+    color: var(--branco-principal);
+    font-weight: 700;
+}
+
+.quinto__imagens {
+    display: flex;          
+    justify-content: space-around; 
+    margin: 2em;
+}
+
+.quinto__imagens p {
+    margin-top: 5px;  
+    size: 32px;
+    color: var(--branco-principal);
+    font-weight: 700;
+}
+
+.rodape__final { 
+    text-align: center;
+}
+
+.rodape__logo {
+    margin: 1em;
+}
+
+.rodape__links a {
+    color: var(--cinza-secundario);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 1em;
+}
+
+.rodape__texto {
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin: 2em;
+}
+
+.rodape__links a:hover {
+    color: var(--botao-azul)
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo)
+}
+
+.container__botao__dois:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo)
+}
