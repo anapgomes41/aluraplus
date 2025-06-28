@@ -21,13 +21,6 @@ O design segue fielmente o template do Figma fornecido no curso, com seções cl
 
 ---
 
-## Como executar
-
-1. Clone este repositório
-2. Abra o arquivo `index.html` no seu navegador
-
----
-
 ## O que aprendi com este projeto
 
 * Converter designs visuais em código HTML/CSS semântico e acessível
